@@ -9,7 +9,7 @@ def fibonaci(num):
     n2=1 
     count=0
     list=[]
-    while count < num:      #melakukan looping selama nilai count kurang dari nilai num
+    while count < num:      #melakukan looping selama nilai count kurang dari nilai num dilakukan sebagai batas perhitungan
         list.append(n1)     #masukkan bilangan kedalam  list
         temp = n1 + n2      #inisiasi bilangan selanjutnya
         n1 = n2             #ubah n1 menjadi n2
